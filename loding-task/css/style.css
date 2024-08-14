@@ -1,0 +1,20 @@
+div{
+    width: 50%;
+    height: 60%;
+    margin-left: 20%;
+    background-color: #697565;
+}
+i{
+    color: #ECDFCC;
+    font-size: 900px;
+    padding: 2%;
+    animation-name: loadingicon;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-timing-function: linear;
+}
+body{background-color: #3C3D37;}
+@keyframes loadingicon{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
